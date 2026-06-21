@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DADA AI — Your Free AI Assistant</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <span class="logo">🤖</span>
+        <div>
+          <h1>DADA AI</h1>
+          <p class="tagline">Ask anything. Get code. All free.</p>
+        </div>
+      </div>
+      <button id="resetBtn" class="resetBtn" title="Start new chat">New Chat</button>
+    </header>
+
+    <main id="chat" class="chat">
+      <div class="message bot">
+        <div class="bubble">
+          👋 Hi, I'm <b>DADA AI</b> — your free assistant for answers and code. Ask me anything!
+        </div>
+      </div>
+    </main>
+
+    <form id="chatForm" class="inputBar">
+      <textarea id="userInput" placeholder="Ask DADA AI anything... (Shift+Enter for new line)" rows="1"></textarea>
+      <button type="submit" id="sendBtn">Send</button>
+    </form>
+
+    <footer class="footer">
+      Made with ❤️ by <b>Pratham Dada</b> — Dhanbad, Jharkhand
+    </footer>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
